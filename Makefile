@@ -2,7 +2,7 @@ BINS = matrix matrix-transpose
 CC = gcc
 LD = ld
 
-CFLAGS = -o3
+CFLAGS = -O3
 
 .PHONY:	all clean
 
